@@ -1,14 +1,1 @@
-
-.first {
-    display: flex;
-    flex-wrap: wrap;
-
-    
-}
-.item  {
-    border: solid;
-
-    height: 100px;
-    flex: 1 1 30%;
-   
-}
+@import url('./styles/header.css');
