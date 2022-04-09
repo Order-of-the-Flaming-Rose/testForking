@@ -1,0 +1,29 @@
+.header {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: solid 0.1px #363633;
+}
+.header__logo {
+    
+}
+.header__navigation {
+    display: flex;
+    max-width: 300px;
+    min-width: 200px;
+    gap: 5px;
+
+    justify-content: stretch;
+}
+.header__link {
+    flex: 1 1 33%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.header__link:hover{
+    background-color: #222222;
+    color: #fff;
+}
